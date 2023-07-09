@@ -2,5 +2,5 @@
   "name": "discourse-aave-theme-component",
   "about_url": "https://github.com/senate-xyz/senate/aave-discourse-theme-component",
   "license_url": "https://github.com/senate-xyz/senate/aave-discourse-theme-component/blob/main/LICENSE.md",
-  "component": true,
+  "component": true
 }
