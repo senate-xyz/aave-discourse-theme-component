@@ -1,0 +1,33 @@
+<script type="text/discourse-plugin" version="0.8.28">
+  $(document).ready(function() {
+      var btn = document.getElementById("senate-aave-theme-btn");
+      var popup = document.getElementById("senate-aave-theme-popup");
+      var closebtn = document.getElementsByClassName("senate-aave-theme-close")[0];
+      var subscribebtn = document.getElementById("senate-aave-theme-subscribe-btn");
+      var emailinput = document.getElementById("senate-aave-theme-email");
+      var headertext = document.getElementById("senate-aave-theme-header-text");
+      var descriptiontext = document.getElementById("senate-aave-theme-description-text");
+      var descriptionemoji = document.getElementById("senate-aave-theme-description-emoji");
+
+      descriptionemoji.style.display = "none";
+
+
+      emailinput.oninput = function() {
+          subscribebtn.style.opacity = "100%";
+      }
+
+      btn.onclick = function() {
+          popup.style.display = "block";
+      }
+
+      closebtn.onclick = function() {
+          popup.style.display = "none";
+      }
+
+      window.onclick = function(event) {
+          if (event.target == popup) {
+              popup.style.display = "none";
+          }
+      }
+  });
+</script>
