@@ -25,13 +25,12 @@
 }
 
 .senate-aave-theme-popup {
+  width: 380px;
   max-width: 380px;
   position: absolute;
-  background: linear-gradient(
-      53.9deg,
+  background: linear-gradient(53.9deg,
       rgba(48, 186, 198, 0.25) -0.34%,
-      rgba(182, 80, 158, 0.25) 90.27%
-    ),
+      rgba(182, 80, 158, 0.25) 90.27%),
     rgb(39, 50, 72);
   padding: 6px;
   border-radius: 20px;
